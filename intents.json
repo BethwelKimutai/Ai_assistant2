@@ -1,0 +1,130 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns":["hello Mavin","hi","hey","wake up","Mavin"
+      ],
+
+      "responses": ["Hello sir ","How are you sir","Always here for you sir","Hello","Here's your assistant sir"
+      ]
+
+    },
+
+    {
+      "tag": "bye",
+      "patterns":["bye","goodbye","see you later","sleep","exit"
+      ],
+
+      "responses": ["Bye sir ","Thank you for using me sir","See you later sir","until next time sir", "Have a nice time sir"
+      ]
+
+    },
+
+    {
+      "tag": "health",
+      "patterns":["how are you","how are you doing", "are you good", "you good"
+      ],
+
+      "responses": ["Good sir","Fine sir", "cool sir","Perfect sir"
+      ]
+
+    },
+
+    {
+      "tag": "personality",
+      "patterns":["what is your name","who are you", "your name", "what does mavin stand for"
+      ],
+
+      "responses": ["My name is Mavin sir how may I help you sir","Marvin sir", "Mavin Your personal AI Assistant", "Mavin stands for Masterful Artificial Voice intelligence Navigator"
+      ]
+
+    },
+
+    {
+      "tag": "time",
+      "patterns":["what is the time","time", "what's the time", "what time is it", "saa", "Ni saa ngapi"
+      ],
+
+      "responses": ["time"
+      ]
+
+    },
+
+    {
+      "tag": "date",
+      "patterns":["what is the date","date", "what's the date", "what date is it", "tarehe", "Ni tarehe ngapi"
+      ],
+
+      "responses": ["date"
+      ]
+
+    },
+
+    {
+      "tag": "day",
+      "patterns":["what is the day","day", "what's the day", "what day is it"
+      ],
+
+      "responses": ["day"
+      ]
+
+    },
+
+    {
+      "tag": "wikipedia",
+      "patterns":["who is","wikipedia", "what is", "about"
+      ],
+
+      "responses": ["wikipedia"
+      ]
+
+    },
+
+    {
+      "tag": "google",
+      "patterns":["google search","google", "search"
+      ],
+
+      "responses": ["google"
+      ]
+
+    },
+
+    {
+      "tag": "news",
+      "patterns":["latest news","news", "top headlines"
+      ],
+
+      "responses": ["Getting the latest news ..."
+      ]
+
+    },
+    {
+      "tag": "weather",
+      "patterns": ["weather", "weather update", "current weather"],
+      "responses": ["Getting the current weather..."]
+    },
+    {
+      "tag": "email",
+      "patterns": ["send an email", "compose an email", "email someone"],
+      "responses": ["Sure, I can help you send an email. Please provide the recipient's email address, subject, and message."]
+    },
+    {
+      "tag": "whatsapp",
+      "patterns": ["send a WhatsApp message", "message someone on WhatsApp"],
+      "responses": ["Of course, I can assist you with sending a WhatsApp message. Please provide the recipient's number and the message."]
+    },
+    {
+      "tag": "email_sent",
+      "patterns": ["email sent", "sent an email"],
+      "responses": ["Your email has been sent successfully."]
+    },
+    {
+      "tag": "whatsapp_sent",
+      "patterns": ["WhatsApp message sent", "message sent on WhatsApp"],
+      "responses": ["Your WhatsApp message has been sent."]
+    }
+
+  ]
+}
